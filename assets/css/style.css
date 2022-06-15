@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: dodgerblue; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: dodgerblue; 
+  }
+
+html body{
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.navprat{
+    background-color: black;
+    box-shadow: 0px 15px 10px -15px #111;
+    padding: 20px 0px;
+}
+
+.navlinker{
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 15px;
+    padding: 5px 20px !important;
+    margin: 0px 50px;
+    border-radius: 30px;
+    transition: background-color 0.4s;
+}
+
+.navlinker:hover{
+    background-color: dodgerblue;
+}
+
+.banner{
+    height: 100vh;
+    position: relative;
+    padding-top: 120px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.banner-left{
+    margin: auto 0;
+    padding-left: 50px;
+    color: white;
+    letter-spacing: 2px;
+    position: relative;
+    top: 15px;
+}
+
+.banner-left-1{
+    font-size: 30px;
+    font-family: 'Fredoka', sans-serif;
+    margin: 10px 0;
+}
+
+.banner-left-2{
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 10px 0;
+}
+
+.banner-left-3{
+    font-size: 30px;
+    font-family: 'Fredoka', sans-serif;
+    margin: 10px 0;
+}
+
+.banner-img{
+    border-radius: 500px;
+    position: relative;
+    left: 0px;
+    width: 500px;
+}
+
+.colourer{
+    color: dodgerblue;
+}
+
+.banner-btn{
+    border-radius: 50px;
+    padding: 5px 20px;
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    margin-top: 30px;
+    font-family: 'Fredoka', sans-serif;
+    letter-spacing: 2px;
+}
+.banner-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-1{
+    padding: 100px 100px;
+    font-family: 'Fredoka', sans-serif;
+    text-align: justify;
+}
+
+.bluecontainer{
+    background-color: white;
+    height: auto;
+    font-size: 17px;
+    padding:40px;
+    color: black;
+    border-radius: 30px;
+    background: radial-gradient(
+        100% 70% at 0% 0%,
+        rgba(255, 255, 255, 0.425) 0%,
+        rgba(255, 255, 255, 0.103) 80%
+      );
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      backdrop-filter: blur(100px);
+      color: white;
+      min-height: 100px;
+      letter-spacing: 1px;
+}
+.heading{
+    color: white;  
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+}
+
+.heading2{
+    color: white;  
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+}
+
+.skill-btn{
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin: 5px 0;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    letter-spacing: 1px;
+    cursor: default !important;
+}
+
+.centered{
+    text-align: center;
+}
+
+.footer{
+    padding: 150px 110px;
+}
+
+.footer .heading{
+    text-align: left;
+    padding-top: 5px;
+}
+
+.footer-left{
+    margin: auto 0;
+}
+.footer-right{
+    margin: auto 0;
+}
+
+.footer-right-inside{
+    font-size: 20px;
+}
+
+.footer-right-inside i{
+    color: dodgerblue;
+}
+
+.footer-right-inside a{
+    text-decoration: none;
+    color: white;
+}
+
+.iframer{
+    width: 500px;
+    height: 300px;
+}
+
+.img-car{
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and (max-width:1025px) {
+    .banner-left{
+        position: absolute;
+        top: 75%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding-left: 0px;
+    }
+    .banner-img{
+        position: absolute;
+        top: 35%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer .heading{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 3em;
+    }
+    .banner-btn{
+        font-size: 1.6em;
+    }
+    .footer-right-inside{
+        font-size: 1.6em;
+    }
+    .car-outer{
+        padding: 0px 50px;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .banner-left{
+        position: absolute;
+        top: 75%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .banner-img{
+        position: absolute;
+        top: 30%;
+        left: 52%;
+        width: 300px;
+        transform: translate(-50%, -50%);
+    }
+    .footer{
+        text-align: center;
+        padding: 100px 110px;
+    }
+    .footer .heading{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .iframer{
+        width: 450px;
+    }
+    .banner-btn{
+        font-size: 1.4em;
+    }
+    .img-car{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .banner-left{
+        position: absolute;
+        top: 65%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .banner-img{
+        position: absolute;
+        top: 25%;
+        left: 52%;
+        width: 150px;
+        transform: translate(-50%, -50%);
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer .heading{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 1.6em;
+    }
+    .banner-btn{
+        font-size: 1.2em;
+    }
+    .skill-btn{
+        width: 100%;
+    }
+    .main-1{
+        padding: 100px 50px;
+    }
+    .footer{
+        padding: 100px 50px;
+    }
+    .footer-right-inside{
+        font-size: 1em;
+    }
+    .banner-left-2{
+        font-size: 40px;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 10px 0;
+    }
+    .iframer{
+        width: 220px;
+    }
+    .img-car{
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:400px){
+
+    .banner-img{
+        position: absolute;
+        top: 25%;
+        left: 52%;
+        width: 120px;
+        transform: translate(-50%, -50%);
+    }
+    .banner-left-1{
+        font-size: 20px;
+        font-family: 'Fredoka', sans-serif;
+        margin: 10px 0;
+    }
+    
+    .banner-left-2{
+        font-size: 30px;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 10px 0;
+    }
+    
+    .banner-left-3{
+        font-size: 20px;
+        font-family: 'Fredoka', sans-serif;
+        margin: 10px 0;
+    }
+    .banner-btn{
+        font-size: 1em;
+    }
+    .iframer{
+        width: 180px;
+    }
+    .main-1{
+        padding: 100px 50px;
+    }
+}
+@media screen and (max-width:361px){
+    .iframer{
+        width: 180px;
+    }
+    .footer .heading{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 1.4em;
+    }
+    .footer-right-inside{
+        font-size: 0.9em;
+    }
+    .main-1{
+        padding: 100px 50px;
+    }
+}
+
+@media screen and (max-width:321px){
+    .iframer{
+        width: 140px;
+    }
+    .footer .heading{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 1em;
+    }
+    .footer-right-inside{
+        font-size: 0.7em;
+    }
+    .banner-img{
+        position: absolute;
+        top: 25%;
+        left: 52%;
+        width: 100px;
+        transform: translate(-50%, -50%);
+    }
+    .banner-left-1{
+        font-size: 18px;
+        font-family: 'Fredoka', sans-serif;
+        margin: 10px 0;
+    }
+    
+    .banner-left-2{
+        font-size: 25px;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 10px 0;
+    }
+    
+    .banner-left-3{
+        font-size: 18px;
+        font-family: 'Fredoka', sans-serif;
+        margin: 10px 0;
+    }
+    .banner-btn{
+        font-size: 0.8em;
+    }
+    .main-1{
+        padding: 100px 50px;
+    }
+}
+
+

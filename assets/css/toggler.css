@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Source+Sans+Pro:wght@600&display=swap');
+  .btn-toggler{
+      background-color: white;
+      border: 2px solid white;
+      border-radius: 30px;
+      padding: 5px 20px;
+      color: black;
+      font-family: 'Fredoka', sans-serif;
+      letter-spacing: 1px;
+      width: 150px;
+      height: 60px;
+      margin: 0 10px;
+  }
+  .mypat-logo{
+    width: 100px;
+    height: 50px;
+  }
+  .byju-logo{
+    width: 100px;
+    height: 50px;
+  }
+  .vedantu-logo{
+    width: 100px;
+    height: 50px;
+  }
+
+  .boxer{
+      letter-spacing: 2px;
+      font-family: 'Fredoka', sans-serif;
+      color: white;
+      height: auto;
+      font-size: 16px;
+      padding:20px 20px;
+      text-align: justify;
+  }
+  
+  @media screen and (max-width:769px){
+      .btn-toggler{
+          margin: 10px 10px;
+      }
+  }
+
+  @media screen and (max-width:500px){
+    .btn-toggler{
+        margin: 10px 10px;
+    }
+    .heading2{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:376px){
+    .btn-toggler{
+        margin: 10px 10px;
+    }
+    .heading2{
+        font-size: 18px;
+    }
+}
